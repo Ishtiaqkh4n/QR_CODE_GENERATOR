@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Raleway", sans-serif;
+}
+
+.Main_box{
+    width:100vw;
+    height:100vh;
+    background-color: #000B58;
+    align-content: center;
+
+}
+
+
+.Content_box{
+    width: 25%;
+    height:60%;
+    background-color:#003161;
+    backdrop-filter: blur(10px);
+    margin:auto;
+
+}
+
+.Qr_title H2{
+    text-align: center;
+    color:white;
+    font-weight: 300;
+    
+}
+
+#Qr_magic{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Qr_magic input{
+  width:90%;
+  padding:8px;
+  background-color: #FDEB9E;
+  border-style: none;
+  /* outline: none; */
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+#Qr_magic button{
+  width:90%;
+  padding:8px;
+  margin-top: 20px;
+  background-color: #006A67;
+  border-style: none;
+  font-weight: bold;
+  border-radius: 4px;
+  
+}
+
+#Qr_magic button:hover{
+    background-color: #1fff0186;
+}
+
+
+.image_Content{
+    width: 60%;
+    height:200px;
+    /* border: 3px solid purple; */
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.hidden{
+    display: none;
+}
+
